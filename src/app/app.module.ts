@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 /* Modulo personalizado */
 import { SharedModule } from './shared/shared.module';
-import { VentasModule } from './ventas/ventas.module';
 
 import { AppComponent } from './app.component';
+import { PipesModule } from './pipes-module/pipes-module.module';
 
 /* Cambiar el locale de la applicacion */
 import localeES from "@angular/common/locales/es-MX";
@@ -25,7 +25,7 @@ registerLocaleData(localeFR);
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    VentasModule
+    PipesModule
   ],
   providers: [
     /* Cambiar de forma global el locale */

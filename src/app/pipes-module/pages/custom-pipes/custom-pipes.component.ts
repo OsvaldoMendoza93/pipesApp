@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Color, Heroe } from '../../interfaces/heroe.interface';
 
 @Component({
-  selector: 'app-ordenar',
-  templateUrl: './ordenar.component.html',
+  selector: 'app-custom-pipes',
+  templateUrl: './custom-pipes.component.html',
   styles: [
   ]
 })
-export class OrdenarComponent implements OnInit {
+export class CustomPipesComponent implements OnInit {
   enMayusculas: boolean = true;
   ordenarPor:string = '';
   arrayHeroes: Heroe[] = [
